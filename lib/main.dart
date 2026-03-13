@@ -15,6 +15,8 @@ void main() {
                 Color.fromRGBO(1, 92, 182, 0.69),
                 Color.fromRGBO(55, 76, 97, 0.69),
               ],
+              begin: AlignmentGeometry.center,
+              end: AlignmentGeometry.centerEnd
             ),
           ),
           child: bodymain()
@@ -26,6 +28,6 @@ void main() {
 
 Widget bodymain() {
   return Center(
-    child: Text("hellosss"),
+    child: Text("ss",style: TextStyle(fontSize: 28,color: Colors.white),),
   );
 }
